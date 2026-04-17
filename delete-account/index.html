@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delete Your Account — NukeAlert</title>
+  <meta name="description" content="How to delete your NukeAlert account and associated data, and what we keep for security and legal reasons." />
+  <meta name="theme-color" content="#050500" />
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+  <link rel="canonical" href="https://nuke-alert.com/delete-account" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="brand" href="/">
+        <img src="/assets/logo.svg" alt="" />
+        <span class="brand-name">NukeAlert</span>
+      </a>
+      <nav class="site-nav">
+        <a href="/terms">Terms</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/delete-account" class="active">Delete Account</a>
+      </nav>
+    </header>
+
+    <article class="doc">
+      <div class="doc-meta">
+        <strong>Account Deletion</strong>
+        <span class="sep">·</span>
+        <span>Version v1.0</span>
+        <span class="sep">·</span>
+        <span>Last updated 2026-04-17</span>
+      </div>
+
+      <h1>Delete Your NukeAlert Account</h1>
+      <p class="lede">
+        This page explains how to permanently delete your
+        <strong>NukeAlert</strong> account and associated data, what gets
+        removed, and what — if anything — we must retain.
+      </p>
+
+      <section>
+        <h2>1) Delete directly in the app (recommended)</h2>
+        <p>
+          The fastest way is to delete your account from inside NukeAlert:
+        </p>
+        <ol>
+          <li>Open the <strong>NukeAlert</strong> app on your device.</li>
+          <li>
+            Open the <strong>Account</strong> page by tapping your profile
+            icon in the top-right corner.
+          </li>
+          <li>
+            Scroll to the bottom and tap <strong>Delete Account</strong>.
+          </li>
+          <li>
+            Confirm the action. Your account and associated data will be
+            permanently removed from our systems.
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>2) Request deletion by email</h2>
+        <p>
+          If you can no longer access the app (for example, you lost access to
+          the email used to sign in), you can request deletion by email.
+        </p>
+        <p>
+          Send an email from the email address associated with your NukeAlert
+          account to
+          <a href="mailto:help@nuke-alert.com?subject=Delete%20my%20NukeAlert%20account">help@nuke-alert.com</a>
+          with the subject line
+          <em>"Delete my NukeAlert account"</em>.
+        </p>
+        <p>
+          We will verify the request, process it within
+          <strong>30 days</strong>, and send a confirmation email once the
+          deletion is complete.
+        </p>
+      </section>
+
+      <section>
+        <h2>3) What data is deleted</h2>
+        <p>
+          The following account-linked data is permanently removed when you
+          delete your account:
+        </p>
+        <ul>
+          <li>
+            <strong>Account data</strong> — email address, account identifier,
+            hashed authentication credentials, and any Google OAuth profile
+            information we stored.
+          </li>
+          <li>
+            <strong>Profile data</strong> — nickname, selected app language,
+            theme preference, and any profile text you provided.
+          </li>
+          <li>
+            <strong>Community signals</strong> — your community risk votes
+            (High risk / Low risk), emoji reactions (👍 🔥 😢 😠 🤝), and
+            your upvotes/downvotes on comments.
+          </li>
+          <li>
+            <strong>Comments and reports</strong> — comment text you posted
+            and reports you submitted on other users' comments.
+          </li>
+          <li>
+            <strong>Notification data</strong> — your push notification token
+            / OneSignal subscriber id and your notification preferences.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4) What data is retained</h2>
+        <p>
+          For security, abuse prevention, and legal compliance, a small amount
+          of data may be kept after your account is deleted:
+        </p>
+        <ul>
+          <li>
+            <strong>Anonymized, aggregated usage data</strong> that cannot be
+            linked back to you — for example, aggregate counts of risk votes
+            on an article — may be retained to preserve the integrity of the
+            crowd-signal scoring.
+          </li>
+          <li>
+            <strong>Security and abuse logs</strong> (e.g., IP/session
+            metadata used for fraud and abuse prevention) may be retained for
+            a limited period as required for security.
+          </li>
+          <li>
+            <strong>Legally required records</strong>, retained only for the
+            minimum period required by applicable law.
+          </li>
+          <li>
+            <strong>Backups</strong> may still contain your data for up to
+            <strong>30 days</strong> after deletion, after which backups are
+            overwritten in the normal rotation.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5) Contact</h2>
+        <p>
+          If you have any questions about deleting your account or the data we
+          store, contact us at
+          <a href="mailto:help@nuke-alert.com">help@nuke-alert.com</a>.
+        </p>
+      </section>
+    </article>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> NukeAlert</span>
+      <span>
+        <a href="/terms">Terms of Service</a>
+        <span class="sep">·</span>
+        <a href="/privacy">Privacy Policy</a>
+      </span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
