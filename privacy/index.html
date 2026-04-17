@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — NukeAlert</title>
+  <meta name="description" content="NukeAlert Privacy Policy. What data we collect, how we use it, third-party processors, and your rights." />
+  <meta name="theme-color" content="#050500" />
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+  <link rel="canonical" href="https://nuke-alert.com/privacy" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="brand" href="/">
+        <img src="/assets/logo.svg" alt="" />
+        <span class="brand-name">NukeAlert</span>
+      </a>
+      <nav class="site-nav">
+        <a href="/terms">Terms</a>
+        <a href="/privacy" class="active">Privacy</a>
+      </nav>
+    </header>
+
+    <article class="doc">
+      <div class="doc-meta">
+        <strong>Privacy Policy</strong>
+        <span class="sep">·</span>
+        <span>Version v1.1</span>
+        <span class="sep">·</span>
+        <span>Last updated 2026-04-17</span>
+      </div>
+
+      <h1>Privacy Policy</h1>
+      <p class="lede">
+        This policy explains what NukeAlert collects, how we use it, which third-party
+        processors help deliver the service, and the controls you have over your data.
+      </p>
+
+      <section>
+        <h2>1) Data We Collect</h2>
+        <p>
+          When you use NukeAlert we may store the following:
+          <strong>account data</strong> (email address, account identifier, hashed
+          authentication credentials, and — if you sign in with Google — the basic
+          profile information returned by Google OAuth);
+          <strong>profile data</strong> (your chosen nickname and related profile text);
+          <strong>community signals</strong> (your community risk votes on articles —
+          High risk / Low risk — your emoji reactions 👍 🔥 😢 😠 🤝, and your
+          upvotes/downvotes on comments, each stored with timestamps and your account id);
+          <strong>comments and reports</strong> (comment text you post, comment
+          timestamps, and reports you submit on other users' comments, including
+          reporter account id for moderation);
+          <strong>device and notification data</strong> (push notification
+          token/subscriber id via OneSignal, app language, and basic device/OS info
+          required to deliver notifications); and
+          <strong>technical logs</strong> required for security, abuse prevention, and
+          debugging. We do <strong>not</strong> collect precise device location.
+        </p>
+      </section>
+
+      <section>
+        <h2>2) How We Use Data</h2>
+        <p>
+          To authenticate you and keep your session secure; to enforce one community
+          risk vote per user per article and one reaction per user per article, and to
+          compute crowd-weighted risk scoring and reaction totals; to display your
+          nickname next to your comments and community signals; to moderate reported
+          comments and prevent abuse; to deliver push notifications about risk-level
+          changes and relevant news if you opted in; to translate the UI into your
+          selected language; and to improve data quality, ranking, and reliability of
+          the service.
+        </p>
+      </section>
+
+      <section>
+        <h2>3) Third-Party Processors</h2>
+        <p>
+          We use the following service providers to run the app; they process data
+          only as needed to provide their service: <strong>Supabase</strong> —
+          authentication and database backend for account, voting, comment, and report
+          data; <strong>Google</strong> — OAuth sign-in, when you choose to continue
+          with Google; <strong>OneSignal</strong> — delivery of push notifications to
+          your device. We do not sell personal data. We do not share your data with
+          advertisers.
+        </p>
+      </section>
+
+      <section>
+        <h2>4) Push Notifications</h2>
+        <p>
+          If you grant notification permission, a device push token is stored by
+          OneSignal and associated with your account so that alerts can be delivered.
+          You can revoke notification permission at any time from the app or from
+          your operating system settings; revoking permission stops further
+          notifications from being delivered to that device.
+        </p>
+      </section>
+
+      <section>
+        <h2>5) Data Retention and Deletion</h2>
+        <p>
+          Account, vote, comment, and report data is retained while your account is
+          active. You can permanently delete your account at any time using the
+          in-app <strong>Delete Account</strong> action. Deletion removes your account
+          and associated voting, comment, and report records according to backend
+          rules. Some minimal records may be retained where required for security,
+          fraud prevention, or legal compliance.
+        </p>
+      </section>
+
+      <section>
+        <h2>6) Your Rights and Controls</h2>
+        <p>
+          You can sign out at any time; change your nickname from account settings;
+          disable push notifications from the app or device settings; delete your
+          account from Settings; and contact the app owner to exercise any additional
+          rights available under your local law.
+        </p>
+      </section>
+
+      <section>
+        <h2>7) Children</h2>
+        <p>
+          NukeAlert is not directed to children under the age required by your local
+          law to consent to digital services. Do not use NukeAlert if you are below
+          that age.
+        </p>
+      </section>
+
+      <section>
+        <h2>8) Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy. Material changes will be reflected in
+          the version and date shown above.
+        </p>
+      </section>
+
+      <section>
+        <h2>9) Contact</h2>
+        <p>
+          For privacy inquiries, contact the app owner at
+          <a href="mailto:help@nuke-alert.com">help@nuke-alert.com</a>.
+        </p>
+      </section>
+    </article>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> NukeAlert</span>
+      <span>
+        <a href="/terms">Terms of Service</a>
+      </span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NukeAlert — Nuclear Threat Monitoring</title>
+  <meta name="description" content="NukeAlert is an informational news monitoring app that surfaces nuclear-related signals with crowd-weighted scoring." />
+  <meta name="theme-color" content="#050500" />
+  <meta property="og:title" content="NukeAlert" />
+  <meta property="og:description" content="Informational nuclear news monitoring with crowd-weighted scoring." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nuke-alert.com/" />
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="brand" href="/">
+        <img src="/assets/logo.svg" alt="" />
+        <span class="brand-name">NukeAlert</span>
+      </a>
+      <nav class="site-nav">
+        <a href="/terms">Terms</a>
+        <a href="/privacy">Privacy</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow">Informational · Non-emergency</div>
+      <h1>Nuclear news monitoring, crowd-weighted.</h1>
+      <p>
+        NukeAlert aggregates public nuclear-related reporting and lets the community
+        signal credibility through simple votes. It does not replace official emergency
+        authorities, government instructions, or medical guidance.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="/terms">Terms of Service</a>
+        <a class="btn" href="/privacy">Privacy Policy</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> NukeAlert</span>
+      <span>
+        <a href="mailto:help@nuke-alert.com">help@nuke-alert.com</a>
+      </span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
